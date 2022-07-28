@@ -3,11 +3,11 @@
 # Must configure required 
 version: 0.2
 
-env:
-  variables:
-    # Customers should configure this variable using paramater-store or secrets-manager
-    SECURE_API_TOKEN: 95da9c2e-1879-4b20-a0ee-f537caec651a
-    SYSDIG_API_ENDPOINT: https://us2.app.sysdig.com
+# env:
+#   variables:
+#     # Customers should configure this variable using paramater-store or secrets-manager
+#     SECURE_API_TOKEN: 95da9c2e-1879-4b20-a0ee-f537caec651a
+#     SYSDIG_API_ENDPOINT: https://us2.app.sysdig.com
 
 phases:
   install:
